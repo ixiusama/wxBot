@@ -36,7 +36,7 @@ class TulingWXBot(WXBot):
             else:
                 result = respond['text'].replace('<br>', '  ')
 
-            print '    ROBOT:', result
+            print ('    ROBOT:', result)
             return result
         else:
             return u"知道啦"
